@@ -1,0 +1,29 @@
+# PMO日常工作文件（非网站内容）
+01_日常随感与问题处理/
+02_系统性PMO知识库/
+03_多平台发布区/
+
+# Trae 生成的分享包
+.trae-html-share-packages/
+
+# 部署方案文档（内部使用）
+部署方案-PM文档网站.md
+
+# 非网站版本的文档文件
+*.docx
+*.pdf
+pm-role-analysis/pm-role-analysis.html
+pm-role-analysis/pm-role-analysis-humanized.md
+pm-role-analysis/assets/charts.js
+pm-role-analysis/assets/test.txt
+internet-pm-summary/assets/charts.js
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
