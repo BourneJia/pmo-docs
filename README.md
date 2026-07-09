@@ -23,3 +23,4 @@
 - 纯静态 HTML，无构建步骤
 - 图表库通过 CDN 加载（echarts、 mermaid）
 - 部署于 GitHub Pages + Cloudflare Pages
+| PMO跨团队沟通要点 | 日常记录分享/2026-07-09/PMO跨团队沟通要点.html |
