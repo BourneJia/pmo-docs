@@ -38,7 +38,7 @@
     .cover .meta { margin-top: 28px; font-size: 0.85rem; color: rgba(255,255,255,0.45); position: relative; }
     .toc { background: var(--bg2); border: 1px solid var(--rule); border-radius: 12px; padding: 28px 32px; margin: 40px 0; }
     .toc h2 { font-size: 1.05rem; margin-bottom: 16px; color: var(--ink); }
-    .toc ul { list-style: none; columns: 2; gap: 32px; }
+    .toc ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 32px; }
     .toc li { font-size: 0.9rem; }
     .toc a { color: var(--muted); text-decoration: none; } .toc a:hover { color: var(--accent); }
     .toc .num { display: inline-block; width: 24px; color: var(--accent); font-weight: 600; }
@@ -66,10 +66,13 @@
     .principle-item { background: var(--bg2); border: 1px solid var(--rule); border-radius: 10px; padding: 20px; display: flex; align-items: flex-start; gap: 14px; }
     .principle-item .icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
     .principle-item h4 { margin: 0 0 4px; font-size: 0.95rem; color: var(--ink); } .principle-item p { margin: 0; font-size: 0.85rem; }
+    ul.plain { list-style: none; padding-left: 0; }
+    ul.plain li { padding-left: 20px; position: relative; margin-bottom: 10px; color: var(--muted); }
+    ul.plain li::before { content: ''; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; }
     mark.key { background: none; color: var(--accent); font-weight: 600; }
     footer { margin-top: 56px; padding: 28px 0; border-top: 1px solid var(--rule); text-align: center; color: var(--muted); font-size: 0.85rem; }
     footer a { color: var(--accent); text-decoration: none; font-weight: 500; } footer a:hover { text-decoration: underline; }
-    @media (max-width: 768px) { .card-grid, .principle-grid { grid-template-columns: 1fr; } .cover h1 { font-size: 1.5rem; } .toc ul { flex-direction: column; gap: 4px; } }
+    @media (max-width: 768px) { .card-grid, .principle-grid { grid-template-columns: 1fr; } .cover h1 { font-size: 1.5rem; } .toc ul { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
